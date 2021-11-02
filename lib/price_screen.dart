@@ -53,7 +53,6 @@ class _PriceScreenState extends State<PriceScreen> {
       backgroundColor: Colors.lightBlue,
       itemExtent: 32.0,
       onSelectedItemChanged: (selectedItem) {
-        print(selectedItem);
         // ignore: unused_local_variable
         var selectedCurrency = selectedItem;
         getData();
